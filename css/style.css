@@ -342,6 +342,13 @@ table {
   margin: 0 0 1.5em;
   width: 100%; }
 
+footer.site-footer {
+  position: relative;
+  color: #ffffff;
+  font-size: 14px;
+  margin: 10px;
+  text-shadow: 1px 1px 1px black; }
+
 /*--------------------------------------------------------------
 4.0 Forms
 --------------------------------------------------------------*/

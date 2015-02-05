@@ -10,11 +10,10 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'nafh-boosters-2015' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'nafh-boosters-2015' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'nafh-boosters-2015' ), 'NAFH-Boosters-2015', '<a href="http://www.brendanberkley.com" rel="designer">Brendan Berkley</a>' ); ?>
+			&copy; <?php echo date("Y"); ?> North Allegheny Field Hockey Boosters.
+			Designed by <a href="http://www.brendanberkley.com" rel="designer">Brendan Berkley</a>.
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

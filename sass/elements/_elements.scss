@@ -40,3 +40,11 @@ img {
 }
 
 @import "tables";
+
+footer.site-footer {
+	position: relative;
+	color: #ffffff;
+	font-size: 14px;
+	margin: 10px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,1);
+}
