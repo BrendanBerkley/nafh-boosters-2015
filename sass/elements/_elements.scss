@@ -9,7 +9,11 @@ html {
 }
 
 body {
-	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+	// background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+	// background: #756ca8 url(../images/blue-tile.jpg) top center no-repeat;
+	background: transparent url(../images/grass-texture-300.jpg);
+	font-family: Calibri, Tahoma, sans-serif;
+	position: relative;
 }
 
 blockquote:before, blockquote:after,

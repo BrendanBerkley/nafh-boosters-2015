@@ -96,6 +96,17 @@ function nafh_boosters_2015_widgets_init() {
 }
 add_action( 'widgets_init', 'nafh_boosters_2015_widgets_init' );
 
+function signup_section(){
+	register_sidebar(array( 
+		'name' => 'Signup Section',
+		'id' => 'signup-section',
+		'before_widget' => '',
+		'after_widget' => '',
+	));
+}
+
+add_action( 'widgets_init', 'signup_section' );
+
 /**
  * Enqueue scripts and styles.
  */
