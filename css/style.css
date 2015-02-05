@@ -577,6 +577,10 @@ a {
 .widget_search .search-submit {
   display: none; }
 
+/* Signup Section widget for home page */
+.signup-section {
+  background-color: #fff; }
+
 /*--------------------------------------------------------------
 10.0 Content
 --------------------------------------------------------------*/
