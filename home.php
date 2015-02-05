@@ -11,7 +11,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 		<?php 
 		if ( is_active_sidebar( 'signup-section' ) ) : ?> 
-		<div class="signup-section">
+		<div class="signup-section translucent-border">
 			<?php dynamic_sidebar('Signup Section'); ?>
 		</div> <!-- .signup-section -->
 		<?php endif; ?>
