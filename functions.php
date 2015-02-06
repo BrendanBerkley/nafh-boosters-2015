@@ -100,8 +100,8 @@ function signup_section(){
 	register_sidebar(array( 
 		'name' => 'Signup Section',
 		'id' => 'signup-section',
-		'before_widget' => '',
-		'after_widget' => '',
+		'before_widget' => '<div class="signup-section-signup">',
+		'after_widget' => '</div>',
 	));
 }
 

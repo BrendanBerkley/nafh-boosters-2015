@@ -14,5 +14,30 @@
 
 /* Signup Section widget for home page */
 .signup-section {
-	background-color: #fff;
+	padding: 0 20px;
+
+	.signup-section-signup {
+		padding: 20px 0;
+		border-bottom: 1px solid #ddd;
+	}
+
+	h3.signup-section-subtitle {
+		margin: 0 0 20px;
+		color: $color__pink;
+		font-weight: 700;
+	}
+
+	.signup-section-desc {
+		margin-bottom: 20px;
+		font-size: 0.9em;
+	}
+
+	h2 {
+		font-family: $font__script;
+		font-weight: 400;
+		font-size: 22pt;
+		color: $color__purple;
+		padding-bottom: 10px;
+		margin: 0;
+	}
 }

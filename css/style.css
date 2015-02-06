@@ -229,7 +229,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: Calibri, Tahoma, sans-serif;
+  font-family: "PT Sans", Calibri, Tahoma, sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -296,7 +296,7 @@ html {
 
 body {
   background: transparent url(../images/grass-texture-300.jpg);
-  font-family: Calibri, Tahoma, sans-serif;
+  font-family: "PT Sans", Calibri, Tahoma, sans-serif;
   position: relative; }
 
 blockquote:before, blockquote:after,
@@ -644,7 +644,24 @@ a.signup-section-button {
 
 /* Signup Section widget for home page */
 .signup-section {
-  background-color: #fff; }
+  padding: 0 20px; }
+  .signup-section .signup-section-signup {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd; }
+  .signup-section h3.signup-section-subtitle {
+    margin: 0 0 20px;
+    color: #E1327C;
+    font-weight: 700; }
+  .signup-section .signup-section-desc {
+    margin-bottom: 20px;
+    font-size: 0.9em; }
+  .signup-section h2 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 22pt;
+    color: #966EAA;
+    padding-bottom: 10px;
+    margin: 0; }
 
 /*--------------------------------------------------------------
 10.0 Content

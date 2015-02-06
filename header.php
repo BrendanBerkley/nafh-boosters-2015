@@ -11,6 +11,8 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Pacifico' rel='stylesheet' type='text/css'>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css" type="text/css" media="screen" charset="utf-8" />
