@@ -87,8 +87,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "modules/clearings";
 
 /*--------------------------------------------------------------
-9.0 Widgets
+9.0 Widgets and Events Manager
 --------------------------------------------------------------*/
+@import "site/secondary/events-manager";
 @import "site/secondary/widgets";
 
 /*--------------------------------------------------------------

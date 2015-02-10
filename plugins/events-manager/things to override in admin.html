@@ -1,0 +1,61 @@
+<!-- ======================================= -->
+<!-- Formatting > Events > Single Event Page -->
+<!-- ======================================= -->
+<div class="row em-single-page">
+	<div class="col-sm-6 {has_location}col-sm-12{/has_location}">
+		<div class="em-categories">
+			#_CATEGORIES
+		</div>
+		<div class="em-date">
+			#_EVENTDATES
+		</div>
+		<div class="em-time">
+			#_EVENTTIMES
+		</div>
+		<div class="em-notes">
+			#_EVENTNOTES
+		</div>
+		
+		{has_bookings}
+		<div class="em-bookings">
+			<h3>Bookings</h3>
+			#_BOOKINGFORM
+		</div>
+		{/has_bookings}
+	</div>
+	{has_location}
+	<div class="col-sm-6">
+		<div class="em-location">
+			#_LOCATIONLINK
+		</div>
+		
+		<!-- .em-location-map-container -->
+		#_LOCATIONMAP
+	</div>
+	{/has_location}
+</div>
+
+<!-- ========================================== -->
+<!-- Formatting > Events > Single Location Page -->
+<!-- ========================================== -->
+<div class="row em-single-page">
+	<div class="col-sm-6">
+		<div class="em-location-address">
+			#_LOCATIONADDRESS<br/>
+			#_LOCATIONTOWN, #_LOCATIONSTATE #_LOCATIONPOSTCODE
+		</div>
+
+		<div class="em-notes">
+			#_LOCATIONNOTES
+		</div>
+
+		<div class="em-list">
+			<h3>Upcoming Events</h3>
+			#_LOCATIONNEXTEVENTS
+		</div>
+	</div>
+	<div class="col-sm-6">
+		#_LOCATIONMAP
+	</div>
+</div>
+	

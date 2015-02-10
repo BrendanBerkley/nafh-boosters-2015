@@ -41,6 +41,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	12.1 Captions
 	12.2 Galleries
 --------------------------------------------------------------*/
+.color-purple {
+  color: #966EAA; }
+
+.color-pink {
+  color: #E1327C; }
+
 /*--------------------------------------------------------------
 1.0 Normalize
 --------------------------------------------------------------*/
@@ -237,6 +243,10 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   clear: both; }
 
+h1.entry-title {
+  font-family: "Pacifico", cursive;
+  font-weight: normal; }
+
 p {
   margin-bottom: 1.5em; }
 
@@ -429,11 +439,11 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue; }
+  color: #E1327C; }
   a:visited {
-    color: purple; }
+    color: #E1327C; }
   a:hover, a:focus, a:active {
-    color: midnightblue; }
+    color: #97164d; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -630,8 +640,46 @@ a.signup-section-button {
   clear: both; }
 
 /*--------------------------------------------------------------
-9.0 Widgets
+9.0 Widgets and Events Manager
 --------------------------------------------------------------*/
+.type-event, .type-location {
+  font-size: 22px; }
+  @media (max-width: 1199px) {
+    .type-event, .type-location {
+      font-size: 20px; } }
+  @media (max-width: 991px) {
+    .type-event, .type-location {
+      font-size: 18px; } }
+  @media (max-width: 767px) {
+    .type-event, .type-location {
+      font-size: 16px; } }
+  .type-event h1.entry-title, .type-location h1.entry-title {
+    font-size: 2em;
+    margin: 0.33em 0 0;
+    padding: 0; }
+  .type-event .entry-content, .type-location .entry-content {
+    margin-top: 0.33em; }
+
+.em-single-page .em-categories ul {
+  margin: 0;
+  padding: 0; }
+  .em-single-page .em-categories ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+.em-single-page .em-date, .em-single-page .em-time, .em-single-page .em-location {
+  font-size: 1.33em; }
+.em-single-page .em-date {
+  margin-top: 20px; }
+.em-single-page .em-location {
+  margin-bottom: 20px; }
+.em-single-page .em-list ul {
+  margin: 0 auto;
+  padding: 0 auto; }
+
+.em-location-map-container {
+  width: 100% !important; }
+
 .widget {
   margin: 0 0 1.5em;
   /* Make sure select elements fit in widgets. */ }
