@@ -683,6 +683,44 @@ a.signup-section-button {
 .em-location-map-container {
   width: 100% !important; }
 
+.em-calendar {
+  width: 100%;
+  margin-bottom: 20px; }
+  .em-calendar td {
+    vertical-align: top; }
+    .em-calendar td ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+    .em-calendar td.eventless, .em-calendar td.eventful, .em-calendar td.pre {
+      height: 100px;
+      width: 14.28%; }
+    .em-calendar td.month_name {
+      text-align: center;
+      font-family: 'Pacifico', cursive;
+      font-size: 24pt;
+      color: #E1327C;
+      line-height: 28pt;
+      font-weight: normal; }
+
+tr.days-names td {
+  font-weight: bold;
+  color: #777777;
+  height: 25px !important;
+  vertical-align: middle; }
+
+.em-calendar thead tr td {
+  border: 0;
+  vertical-align: middle; }
+
+a.em-calnav-prev, a.em-calnav-next {
+  color: #E1327C;
+  padding: 10px;
+  text-decoration: none; }
+
+a.em-calnav-next {
+  padding-left: 50px; }
+
 .widget {
   margin: 0 0 1.5em;
   /* Make sure select elements fit in widgets. */ }
