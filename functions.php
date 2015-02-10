@@ -98,7 +98,7 @@ add_action( 'widgets_init', 'nafh_boosters_2015_widgets_init' );
 
 function signup_section(){
 	register_sidebar(array( 
-		'name' => 'Signup Section',
+		'name' => 'Home Signup Section',
 		'id' => 'signup-section',
 		'before_widget' => '<div class="signup-section-signup">',
 		'after_widget' => '</div>',
@@ -106,6 +106,17 @@ function signup_section(){
 }
 
 add_action( 'widgets_init', 'signup_section' );
+
+function home_events_section(){
+	register_sidebar(array( 
+		'name' => 'Home Events Section',
+		'id' => 'home-events-section',
+		'before_widget' => '<div class="home-events-section">',
+		'after_widget' => '</div>',
+	));
+}
+
+add_action( 'widgets_init', 'home_events_section' );
 
 /**
  * Enqueue scripts and styles.

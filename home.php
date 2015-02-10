@@ -13,14 +13,17 @@ get_header(); ?>
 		if ( is_active_sidebar( 'signup-section' ) ) : ?> 
 		<div class="col-sm-6">
 			<div class="signup-section translucent-border">
-				<?php dynamic_sidebar('Signup Section'); ?>
+				<?php dynamic_sidebar('Home Signup Section'); ?>
 			</div> <!-- .signup-section -->
 		</div> <!-- .col-sm-6 -->
 		<?php endif; ?>
 		
 		<div class="<?php if ( is_active_sidebar( 'signup-section' ) ) : ?>col-sm-6<?php else : ?>col-xs-12<?php endif; ?>">
-			<div class="home-section translucent-border">
-				Schedule and updates go here
+			<div class="translucent-border">
+				<?php 
+				if ( is_active_sidebar( 'home-events-section' ) ) : ?> 
+					<?php dynamic_sidebar('Home Events Section'); ?>
+				<?php endif; ?>
 			</div>
 		</div> <!-- .col-sm-6 or -12 -->
 

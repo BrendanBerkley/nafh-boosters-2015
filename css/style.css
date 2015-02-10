@@ -243,12 +243,15 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   clear: both; }
 
+h1.site-title {
+  margin: 0; }
+
 h1.entry-title {
   font-family: "Pacifico", cursive;
   font-weight: normal; }
 
 p {
-  margin-bottom: 1.5em; }
+  margin-bottom: .75em; }
 
 b, strong {
   font-weight: bold; }
@@ -712,6 +715,27 @@ a.signup-section-button {
     margin-bottom: 20px;
     font-size: 0.9em; }
 
+.home-events-section {
+  padding: 0 20px; }
+  .home-events-section h2 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 22pt;
+    line-height: 34px;
+    color: #E1327C;
+    padding-bottom: 10px;
+    margin: 20px 0 0; }
+  .home-events-section ul {
+    margin: 0;
+    padding: 0; }
+    .home-events-section ul li {
+      list-style: none;
+      margin: 0 0 10px; }
+  .home-events-section a {
+    color: #966EAA; }
+  .home-events-section .event-meta {
+    font-size: 0.9em; }
+
 /*--------------------------------------------------------------
 10.0 Content
 --------------------------------------------------------------*/
@@ -740,6 +764,21 @@ a.signup-section-button {
 .page-links {
   clear: both;
   margin: 0 0 1.5em; }
+
+.type-page {
+  font-size: 20px;
+  padding: 20px 40px; }
+  @media (max-width: 1199px) {
+    .type-page {
+      font-size: 18px; } }
+  @media (max-width: 991px) {
+    .type-page {
+      font-size: 16px;
+      padding: 10px 20px; } }
+  @media (max-width: 767px) {
+    .type-page {
+      font-size: 16px;
+      padding: 0; } }
 
 /*--------------------------------------------------------------
 10.2 Asides
