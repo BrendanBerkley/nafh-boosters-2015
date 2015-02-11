@@ -362,6 +362,9 @@ table {
   box-shadow: 0pt 0pt 5px rgba(0, 0, 0, 0.6);
   border: 10px solid rgba(255, 255, 255, 0.3); }
 
+html.lt-ie9 .translucent-border {
+  background: #ffffff; }
+
 footer.site-footer {
   position: relative;
   color: #ffffff;

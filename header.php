@@ -6,7 +6,13 @@
  *
  * @package NAFH-Boosters-2015
  */
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 7]> <html class="ie7 lt-ie9" lang="en-us"> <![endif]-->
+<!--[if IE 8]> <html class="ie8 lt-ie9" lang="en-us"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en-us"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en-us"> <!--<![endif]-->
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
