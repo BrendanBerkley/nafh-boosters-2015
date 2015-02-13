@@ -250,6 +250,11 @@ h1.entry-title {
   font-family: "Pacifico", cursive;
   font-weight: normal; }
 
+body.archive h1.page-title {
+  font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+  color: #966EAA;
+  font-size: 20px; }
+
 p {
   margin-bottom: .75em; }
 
@@ -556,7 +561,18 @@ a.signup-section-button {
 .site-main .posts-navigation,
 .site-main .post-navigation {
   margin: 0 0 1.5em;
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 10px 40px; }
+  @media (max-width: 991px) {
+    .site-main .comment-navigation,
+    .site-main .posts-navigation,
+    .site-main .post-navigation {
+      padding: 10px 20px; } }
+  @media (max-width: 767px) {
+    .site-main .comment-navigation,
+    .site-main .posts-navigation,
+    .site-main .post-navigation {
+      padding: 10px 10px; } }
 
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
@@ -748,6 +764,8 @@ a.em-calnav-next {
   .signup-section .signup-section-signup {
     padding: 20px 0;
     border-bottom: 1px solid #ddd; }
+  .signup-section .signup-section-button {
+    margin-right: 15px; }
   .signup-section h3.signup-section-subtitle {
     margin: 0 0 20px;
     color: #E1327C;
@@ -756,9 +774,9 @@ a.em-calnav-next {
     margin-bottom: 20px;
     font-size: 0.9em; }
 
-.home-events-section {
+.home-events-section, .widget-area > div {
   padding: 0 20px; }
-  .home-events-section h2 {
+  .home-events-section h2, .home-events-section h1.widget-title, .widget-area > div h2, .widget-area > div h1.widget-title {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-size: 22pt;
@@ -766,16 +784,21 @@ a.em-calnav-next {
     color: #E1327C;
     padding-bottom: 10px;
     margin: 20px 0 0; }
-  .home-events-section ul {
+  .home-events-section ul, .widget-area > div ul {
     margin: 0;
     padding: 0; }
-    .home-events-section ul li {
+    .home-events-section ul li, .widget-area > div ul li {
       list-style: none;
       margin: 0 0 10px; }
-  .home-events-section a {
+  .home-events-section a, .widget-area > div a {
     color: #966EAA; }
-  .home-events-section .event-meta {
+  .home-events-section .event-meta, .widget-area > div .event-meta {
     font-size: 0.9em; }
+  .home-events-section .widget_recent_entries .post-date, .widget-area > div .widget_recent_entries .post-date {
+    font-size: 0.9em;
+    font-style: italic; }
+    .home-events-section .widget_recent_entries .post-date:before, .widget-area > div .widget_recent_entries .post-date:before {
+      content: "-  "; }
 
 /*--------------------------------------------------------------
 10.0 Content
@@ -806,20 +829,32 @@ a.em-calnav-next {
   clear: both;
   margin: 0 0 1.5em; }
 
-.type-page {
+.type-page, .type-post {
   font-size: 20px;
   padding: 20px 40px; }
   @media (max-width: 1199px) {
-    .type-page {
+    .type-page, .type-post {
       font-size: 18px; } }
   @media (max-width: 991px) {
-    .type-page {
+    .type-page, .type-post {
       font-size: 16px;
       padding: 10px 20px; } }
   @media (max-width: 767px) {
-    .type-page {
+    .type-page, .type-post {
       font-size: 16px;
-      padding: 0; } }
+      padding: 10px; } }
+
+body.archive .page-header .page-title {
+  padding: 10px 40px 0; }
+  @media (max-width: 991px) {
+    body.archive .page-header .page-title {
+      padding: 10px 20px 0; } }
+  @media (max-width: 767px) {
+    body.archive .page-header .page-title {
+      padding: 10px 10px 0; } }
+
+body.archive .type-post {
+  padding-top: 0; }
 
 /*--------------------------------------------------------------
 10.2 Asides

@@ -82,6 +82,13 @@
 .site-main .post-navigation {
 	margin: 0 0 1.5em;
 	overflow: hidden;
+	padding: 10px 40px;
+	@media (max-width: 991px) {
+		padding: 10px 20px;
+	}
+	@media (max-width: 767px) {
+		padding: 10px 10px;
+	}
 }
 
 .comment-navigation .nav-previous,

@@ -40,7 +40,7 @@
 
 	<header id="masthead" class="site-header row" role="banner">
 		<div class="site-branding col-xs-12">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php bloginfo('template_url'); ?>/images/instructional-league-logo.png" alt="North Allegheny Field Hockey Boosters Instructional League" /></a></h1>
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php bloginfo('template_url'); ?>/images/instructional-league-logo.png" alt="North Allegheny Field Hockey Boosters Instructional League" class="hidden-xs" /><img src="<?php bloginfo('template_url'); ?>/images/instructional-league-logo-stacked.png" alt="North Allegheny Field Hockey Boosters Instructional League" class="visible-xs img-responsive" /></a></h1>
 		</div><!-- .site-branding -->
 	</header><!-- #masthead -->
 

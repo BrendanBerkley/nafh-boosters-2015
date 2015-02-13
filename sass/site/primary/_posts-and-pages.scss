@@ -27,7 +27,7 @@
 	margin: 0 0 1.5em;
 }
 
-.type-page {
+.type-page, .type-post {
 	font-size: 20px;
 	padding: 20px 40px;
 
@@ -40,7 +40,22 @@
 	}
 	@media (max-width: 767px) {
 		font-size: 16px;
-		padding: 0;
+		padding: 10px;
 	}
 
+}
+
+body.archive .page-header .page-title {
+	padding: 10px 40px 0;
+
+	@media (max-width: 991px) {
+		padding: 10px 20px 0; 
+	}
+	@media (max-width: 767px) {
+		padding: 10px 10px 0;
+	}
+}
+
+body.archive .type-post {
+	padding-top: 0;
 }

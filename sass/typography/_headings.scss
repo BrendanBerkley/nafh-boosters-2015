@@ -10,3 +10,9 @@ h1.entry-title {
 	font-family: $font__script;
 	font-weight: normal;
 }
+
+body.archive h1.page-title {
+	font-family: $font__main;
+	color: $color__purple;
+	font-size: 20px;
+}
