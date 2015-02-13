@@ -91,7 +91,7 @@ function nafh_boosters_2015_widgets_init() {
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'after_title'   => '</h1>'
 	) );
 }
 add_action( 'widgets_init', 'nafh_boosters_2015_widgets_init' );
@@ -101,7 +101,7 @@ function signup_section(){
 		'name' => 'Home Signup Section',
 		'id' => 'signup-section',
 		'before_widget' => '<div class="signup-section-signup">',
-		'after_widget' => '</div>',
+		'after_widget' => '</div>'
 	));
 }
 
@@ -112,11 +112,21 @@ function home_events_section(){
 		'name' => 'Home Events Section',
 		'id' => 'home-events-section',
 		'before_widget' => '<div class="home-events-section">',
-		'after_widget' => '</div>',
+		'after_widget' => '</div>'
 	));
 }
 
 add_action( 'widgets_init', 'home_events_section' );
+
+
+function widget_dump(){
+	register_sidebar(array( 
+		'name' => 'Widget Dump',
+		'id' => 'widget-dump'
+	));
+}
+
+add_action( 'widgets_init', 'widget_dump' );
 
 /**
  * Enqueue scripts and styles.
