@@ -740,6 +740,9 @@ a.em-calnav-prev, a.em-calnav-next {
 a.em-calnav-next {
   padding-left: 50px; }
 
+table.registration td {
+  vertical-align: top; }
+
 .widget {
   margin: 0 0 1.5em;
   /* Make sure select elements fit in widgets. */ }
