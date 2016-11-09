@@ -722,6 +722,9 @@ a.signup-section-button {
       line-height: 28pt;
       font-weight: normal; }
 
+.fullcalendar {
+  font-size: 0.75em; }
+
 tr.days-names td {
   font-weight: bold;
   color: #777777;
