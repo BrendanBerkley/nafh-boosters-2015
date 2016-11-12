@@ -313,7 +313,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: transparent url(../images/grass-texture-300.jpg);
+  background: #756ca8 url(../images/blue-tile.jpg) top center no-repeat;
   font-family: "PT Sans", Calibri, Tahoma, sans-serif;
   position: relative; }
 
